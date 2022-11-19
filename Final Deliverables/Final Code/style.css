@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    position: relative;
+    background-image: url(./images/airline.jpg);
+}
+nav{
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-around;
+    color: whitesmoke;
+    cursor: pointer;
+    /* border: 1px solid aliceblue; */
+}
+#lat{
+    display: flex;
+    align-items: center;
+    margin-right: 500px;
+}
+#title{
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+}
+#menu{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#menu span{
+    padding-right: 20px;
+}
+.container
+{
+    width: 88%;
+    height: 77vh;
+    margin-top: 40px;
+    margin-left:80px;
+    display: flex;
+    position: relative;
+}
+.container1
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container2{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;                        
+}
+.input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: none;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    box-shadow:3px 3px 3px rgb(255,194,35);
+}
+.f1 input{
+    outline: none;
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: rgb(255,194,35);
+    border: none;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,.94),
+    2px 2px 1px white;
+}
+.con{
+    height: 77vh;
+    width: 100%;
+    background-color: aqua;
+    position :absolute;
+    z-index: 1;
+    justify-content: center;
+    background-color: rgb(33, 54, 74);
+    box-shadow: 3px 3px 3px white , -3px -3px 3px white;
+}
+.regform{
+    margin: auto;
+    margin-top: 10px;
+    width: 425px;
+    height: 74vh;
+    display: flex;
+    background-color:rgb(33, 54, 74);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+}
+.inputbox input{
+    outline: none;
+    color: white;
+    background-color: rgb(33, 54, 74);
+    border:1 px solid white;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+    box-shadow:3px 3px 3px rgb(255,194,35);
+    border: 2px solid white;
+    background-color: rgb(33, 54, 74);
+}
+
+.inputbox span{
+    position: absolute;
+    font-size: 1em;
+    margin-top: 26px;
+    margin-left: 15px;
+    z-index: 0;
+    color: aliceblue;
+    cursor: pointer;
+}
+.inputbox input:valid ~ span,.inputbox input:focus ~span{
+    color: aqua;
+    transform: translateX(10px) translateY(-14px);
+    font-size: .9 em;
+   background-color: rgb(33, 54, 74);
+   transition: ease-in 0.1s;
+   border-left: 2px solid rgb(255, 191, 0);
+   border-right: 2px solid rgb(255, 191, 0);
+}
+.regform button{
+    height: 35px;
+    width: 90px;
+    margin-top: 18px;
+    outline: none;
+    border: 2px solid white;
+    border-radius:10px;
+    font-size: large;
+    background-image: url(./images/airline.jpg);
+    box-shadow:2px 2px 2px rgb(255,194,35);
+    color:rgb(255,283,0);
+}
+.ad-container table{
+    width: 85%;
+    border: 1px solid rgb(255,283,0);
+}
+.ad-container table td,th{
+    border: 1px solid rgb(255,283,0);
+    color: white;
+    text-align: center;
+    max-width: 100px;
+}
+.ad-container table tr{
+    height: 50px;
+}
+.off{
+    display: none;
+}
